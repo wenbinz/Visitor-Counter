@@ -1,0 +1,11 @@
+in Index.php, it calls on the first python script (read.py) to
+read the number from counter.txt and display on the screen along 
+with text "Total visitors:". It then calls the second python script
+(update.py) to increment the value in  counter.txt by one. 
+
+The rest of the script is for the second part in which I set a cookie to 
+each viewer's web browser for a duration of one day. The script first check
+to see if such cookie called "LastVisit" exists on the visitor's hisotry.
+If not, it welcomes the user to the site. if the cookie is found the it 
+echos a welcome back message along with the last visited time. 
+
